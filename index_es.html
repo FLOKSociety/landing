@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>FLOK Society: Sumak Yachay – Buen Conocer</title>
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/camera.css">
+		<link rel="stylesheet" href="css/form.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.1.1.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/forms.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>f
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/tms-0.4.1.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> -->
+
+		<script>
+			$(document).ready(function(){
+				$('.slider_wrapper')._TMS({
+					show:0,
+					pauseOnHover:true,
+					prevBu:'.prev',
+					nextBu:'.next',
+					playBu:false,
+					duration:800,
+					preset:'none',
+					pagination:true,//'.pagination',true,'<ul></ul>'
+					pagNums:true,
+					slideshow:8000,
+					numStatus:false,
+					banners: 'fade',
+					waitBannerAnimation:false,
+					progressBar:false
+				});
+			});
+			$(document).ready(function(){
+				!function(){
+			var map=[]
+			 ,names=[]
+			 ,win=$(window)
+			 ,header=$('header')
+			 ,currClass
+			$('.content').each(function(n){
+			 map[n]=this.offsetTop
+			 names[n]=$(this).attr('id')
+			})
+			win
+			 .on('scroll',function(){
+				var i=0
+				while(map[i++]<=win.scrollTop());
+				if(currClass!==names[i-2])
+				currClass=names[i-2]
+				header.removeAttr("class").addClass(names[i-2])
+			 })
+			}(); });
+					function goToByScroll(id){
+				$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+				}
+				$(document).ready(function(){
+					$().UItoTop({ easingType: 'easeOutQuart' });
+				});
+		</script>
+		<script>
+		$(document).ready(function(){
+			$(".carousel").carousel();
+		});
+		</script>
+		<!--[if lt IE 8]>
+			<div style=' clear: both; text-align:center; position: relative;'>
+				<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+					<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+				</a>
+			</div>
+		<![endif]-->
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<link rel="stylesheet" media="screen" href="css/ie.css">
+		<![endif]-->
+	</head>
+	<body class="">
+<!--==============================header=================================-->
+		<header class="page1">
+			<div class="container_12">
+				<div class="grid_12">
+					<h1><a href="#" onClick="goToByScroll('page1'); return false;"><img src="images/logo.png" alt="FLOK Society: Sumak Yachay – Buen Conocer"></a></h1>
+					<div class="lang">
+						<ul>
+							<li><a href="index_en.html">EN</a></li>
+							<li><a href="#" class="activo">ES</a></li>
+						</ul>
+					</div>
+					<div class="menu_block">
+						<nav class="">
+							<ul class="sf-menu">
+								<li class="current men"><a onClick="goToByScroll('page1'); return false;" href="#">¿Qué es?</a> <strong class="hover"></strong></li>
+								<li class="men1"><a onClick="goToByScroll('page2'); return false;" href="#">Investigación</a><strong class="hover"></strong></li>
+								<li class=" men2"><a onClick="goToByScroll('page3'); return false;" href="#">Ruta</a> <strong class="hover"></strong></li>
+								<li class=" men3"><a onClick="goToByScroll('page4'); return false;" href="#">Encuentros</a> <strong class="hover"></strong></li>
+								<li class=" men4"><a onClick="goToByScroll('page5'); return false;" href="#">Convenio</a> <strong class="hover"></strong></li>
+								<li class=" men5"><a onClick="goToByScroll('page6'); return false;" href="#">Participa</a> <strong class="hover"></strong></li>
+							</ul>
+						</nav>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</header>
+<!--=======content================================-->
+		<div id="page1" class="content">
+			<div class="ic"></div>
+			<div class="container_12">
+				<div class="slogan corto">
+					<h3>¿Qué es FLOK Society?</h3>
+				</div>
+				<div class="videoflok">
+					<iframe width="760" height="428" src="http://www.youtube.com/embed/WoMOLuG5LuI" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="grid_4">
+					<p class="info">Flok Society es un un proceso participativo en red y un proyecto de investigación abierta para crear propuestas de políticas públicas y acciones políticas para la transición de Ecuador hacia la economía social del conocimiento.</p>
+				</div>
+				<div class="grid_4">
+					<p class="info">Una vez implementado, las propuestas de FLOK Society mejorarán la calidad de vida [buen vivir], el acceso abierto al conocimiento y la cultura [buen conocer] y ofrecerán un método que inspire a la región y el mundo.</p>
+				</div>
+				<div class="grid_4">
+					<p class="info">Once implemented, FLOK Society proposals will improve the quality of life [buen vivir], open access to knowledge and culture [buen conocer], and offer a method that will inspire the region and the world. <a class="link_texto" href="http://floksociety.org/en/que-es-esto/" target="_blank"> <em>Learn more</em></a></p>
+				</div>
+			</div>
+
+		</div>
+		<div id="page2" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan corto">
+						<h3>Líneas de Investigación</h3>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="box maxheight1">
+						<img src="images/human_capabilities.png" alt="">
+						<h5>Capacidades<br>Humanas</h5>
+						<p>El apoyo institucional para la creación de capacidades debe enfocarse en el aprendizaje abierto y la colaboración comunitaria. ¿Qué implica esto? Primero, un replanteamiento de los procesos de aprendizaje, que deben fomentar la reciprocidad y la creación de valor basada en un trabajo común; y segundo, el  aprovechamiento de los sistemas de educación abiertos. <br><br><a class="link_texto" href="http://es.wiki.floksociety.org/w/Capacidades_humanas" target="_blank">Leer más</a></p>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="box maxheight1">
+						<img src="images/infra_tecnicas.png" alt="">
+						<h5>Infraestructuras técnicas abiertas</h5>
+						<p>¿Te preocupa la seguridad y privacidad en línea? Limitar nuestra dependencia de una infraestructura centralizada y gestionada desde el exterior es clave para controlar nuestro futuro digital. Debemos identificar normas de apertura y consolidar una orientación común de nuestra infraestructura online para asegurar nuestros derechos de expresión colectiva y proteger nuestra privacidad. <br><br><a class="link_texto" href="http://es.wiki.floksociety.org/w/Infraestructuras_t%C3%A9cnicas_abiertas" target="_blank">Leer más</a></p>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="box maxheight1">
+						<img src="images/infras_comunes.png" alt="">
+						<h5>Infraestructuras comunes para la vida colectiva</h5>
+						<p>La solidaridad y la vida comunitaria no solo se valoran por su dimensión humanitaria, sino también por su valor empírico. Las prácticas orientadas a lo común pueden mejorar infraestructuras públicas y promover formas sostenibles de vida en los colectivos. Ya existen prácticas de infraestructuras abiertas y basadas en los comunes en el Ecuador y el mundo. ¿Cómo hacer de estas experiencias una política pública? <br><br><a class="link_texto" href="http://en.wiki.floksociety.org/w/Commons%E2%80%99_Infrastructure_for_Collective_Life" target="_blank">Leer más</a></p>
+					</div>
+				</div>
+				<div class="grid_6">
+					<div class="box maxheight1">
+						<img src="images/capacidades_productivas.png" alt="">
+						<h5>Capacidades productivas orientadas a los comunes</h5>
+						<p>Imagina un lugar cuya actividad productiva respete a la naturaleza y a los seres humanos y, además, garantice el acceso al conocimiento. Aquí se investiga cómo mejorar la producción económica del país honrando esas premisas. ¿Cuáles son los principales campos a desarrollar? La agricultura abierta, las redes de innovación y de diseños abiertos y comunes, y la distribución de energía renovable. <br><br><a class="link_texto" href="http://en.wiki.floksociety.org/w/Commons-oriented_Productive_Capacities" target="_blank">Leer más</a></p>
+					</div>
+				</div>
+				<div class="grid_6">
+					<div class="box maxheight1">
+						<img src="images/infra_institucional.png" alt="">
+						<h5>Infraestructura social  e innovación institucional</h5>
+						<p>La única manera de que este sueño se convierta en una realidad sostenible en el tiempo, es creando un marco legal e institucional que promueva y soporte estas transformaciones. Aquí se profundiza en el análisis de la legislación relacionada a las cooperativas, ONGs y empresas de todo tipo. Por supuesto, también sopesa cómo las políticas públicas pueden promover la co-producción de bienes y servicios entre el estado y la sociedad civil con recursos comunes. <br><br><a class="link_texto" href="http://es.wiki.floksociety.org/w/Infraestructura_social_e_innovaci%C3%B3n_institucional" target="_blank">Leer más</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="page3" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan corto">
+						<h3>Ruta del Buen Conocer</h3>
+					</div>
+
+
+					<div class="slider_wrapper">
+						<ul class="items">
+							<li>
+								<img src="images/spacer.gif" alt="">
+								<div class="caption banner">
+									<div class="imgruta1">
+										
+									</div>
+									<div class="textorecorrido">
+										<h5>Acercando el concepto de la economía social del conocimiento</h5>
+										<p>En la ruta de repensar nuevos modelos económicos para la sociedad, donde el conocimiento es colaborativo, común y abierto, con el apoyo de Infodesarrollo se realizaron 25 talleres de Economía Social de Conocimiento en 24 provincias alcanzando la participación de 800 personas, quienes crearon un compromiso para generar, impulsar y proponer cambios desde sus realidades. Para FLOK Society estos talleres forman parte del proceso participativo, donde se establecen vínculos con diferentes actores de la sociedad civil.</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img src="images/spacer.gif" alt="">
+								<div class="caption banner">
+									<div class="imgruta2">
+										
+									</div>
+									<div class="textorecorrido">
+										<h5>Sé parte de la construcción del Buen Conocer</h5>
+										<p>¡Súmate al proyecto! Puedes unirte a este proceso en tiempo real o recibiendo noticias. Participa en nuestro mumble,  pad y wiki; o suscríbete a las listas de correos electrónicos para recibir los mensajes que circulan en ellas, pudiendo participar tanto en la investigación como en la logística del proyecto. ¡No dejes de darnos tus ideas!</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img src="images/spacer.gif" alt="">
+								<div class="caption banner">
+									<div class="imgruta3">
+										
+									</div>
+									<div class="textorecorrido">
+										<h5>Carta Abierta: Un proyecto para todos, construido por todos</h5>
+										<p>Acorde al espíritu participativo del proyecto, hicimos el lanzamiento de la Carta Abierta invitando a universidades, académicos y trabajadores del procomún del Ecuador y del mundo para que se sumen a este sueño y aporten a la investigación con sus ideas. La invitación recibió diversas respuestas y el impacto del proyecto ha generado que FLOK Society haya sido nominada a los premios Katerva en Desarrollo Humano y a los Prix Ars Electronica en Comunidades Digitales.</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img src="images/spacer.gif" alt="">
+								<div class="caption banner">
+									<div class="imgruta4">
+										
+									</div>
+									<div class="textorecorrido">
+										<h5>Sinergias institucionales para el conocimiento común y abierto</h5>
+										<p>El escenario del conocimiento común y abierto no es una utopía, se logra compartiendo, acercándose a diversas realidades para abrir los recursos a todos. En esta ruta los investigadores de FLOK society entablando reuniones con  instituciones gubernamentales y no gubernamentales, colectivos sociales, dirigentes urbanos y  rurales, para intercambiar  ideas y hacer propuestas en base a la situación actual del país, lo cual servirá para plasmarse en  políticas gubernamentales.</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img src="images/spacer.gif" alt="">
+								<div class="caption banner">
+									<div class="imgruta5">
+										
+									</div>
+									<div class="textorecorrido">
+										<h5>Avances de investigación, un reflejo de que el objetivo es posible</h5>
+										<p>Los investigadores comparten periódicamente en nuestra wiki los avances de su trabajo sobre las cinco corrientes de estudio, donde sistematizan no solo su propia investigación, sino el aporte de todos los colectivos locales y globales. Los avances reflejan el interés en la realización de este proyecto que incorpora todas las voces interesadas en consolidar un sistema de producción común y abierto.</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img src="images/spacer.gif" alt="">
+								<div class="caption banner">
+									<div class="imgruta6">
+										
+									</div>
+									<div class="textorecorrido">
+										<h5>Hacia la Cumbre del Buen Conocer</h5>
+										<p>Del 27 al 30 de mayo de 2014 se planteará una gran transformación para el país, que posiciona a Ecuador como el primer país del mundo que se plantea como política pública apostar a la sociedad del conocimiento común y abierto. La Cumbre del Buen Conocer congregará a diferentes actores sociales,  nacionales e internacionales, instituciones públicas y privadas, que diseñarán colaborativamente, a partir de los resultados del trabajo del equipo de investigación, un modelo de políticas públicas orientadas  a la economía social del conocimiento, una oportunidad de plasmar la gran utopía en realidad. ¡Te mantendremos informados! </p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="page4" class="content">
+			<div class="ic"></div>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan corto">
+						<h3>Encuentros FLOK</h3>
+					</div>
+					<div class="slider_wrapper">
+						<ul class="items">
+							<li>
+								
+								<div class="caption banner">
+									<img src="images/foto1.jpg" alt="">
+								</div>
+							</li>
+							<li>
+								
+								<div class="caption banner">
+									<img src="images/foto2.jpg" alt="">
+								</div>
+							</li>
+							<li>
+								
+								<div class="caption banner">
+									<img src="images/foto3.jpg" alt="">
+								</div>
+							</li>
+							<li>
+								
+								<div class="caption banner">
+									<img src="images/foto4.jpg" alt="">
+								</div>
+							</li>
+							<li>
+								
+								<div class="caption banner">
+									<img src="images/foto5.jpg" alt="">
+								</div>
+							</li>
+							<li>
+								
+								<div class="caption banner">
+									<img src="images/foto6.jpg" alt="">
+								</div>
+							</li>
+							<li>
+								
+								<div class="caption banner">
+									<img src="images/foto1.jpg" alt="">
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div id="page5" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<h3>Convenio Interinstitucional</h3>
+					<p class="especial"><br>FLOK Society es impulsado a través de un convenio interinstitucional entre:<br><br></p>
+				</div>
+				<div class="companies">
+					<div class="grid_4">
+						<a href="http://iaen.edu.ec/" target="_blank"><img src="images/logoiaen.png" alt=""></a>
+						<div class="text1">Instituto de Altos Estudios Nacionales</div>
+						<br>
+						<a href="http://iaen.edu.ec/" target="_blank" class="link_texto">Ir al sitio</a>
+					</div>
+					<div class="grid_4">
+						<a href="http://www.educacionsuperior.gob.ec/" target="_blank"><img src="images/logosenescyt.png" alt=""></a>
+						<div class="text1">Secretaría de Educación Superior, Ciencia, Tecnología e Innovación</div>
+						<br>
+						<a href="http://www.educacionsuperior.gob.ec/" target="_blank" class="link_texto">Ir al sitio</a>
+					</div>
+					<div class="grid_4">
+						<a href="http://www.conocimiento.gob.ec/" target="_blank"><img src="images/logomccth.png" alt=""></a>
+						<div class="text1">Ministerio Coordinador de Conocimiento y Talento Humano</div>
+						<br>
+						<a href="http://www.conocimiento.gob.ec/" target="_blank" class="link_texto">Ir al sitio</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="page6" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+						<h3>Involúcrate</h3>
+						<p>La construcción colaborativa del conocimiento será un proceso contínuo; abrimos las puertas de las siguientes herramientas de comunicación interactiva entre investigadores, sociedad civil, colectivos, activistas, instituciones gubernamentales y no gubernamentales, entre otras personas que deseen formar parte del conocimiento libre.</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="map">
+					<div class="grid_4 centrado">
+						<h6>MANIFIESTO</h6>
+						<img class="manificon" src="images/manifiesto.png" alt="">
+						<p> La mejor validación de este proyecto es tu declaración voluntaria de apoyo y convencimiento con las propuestas planteadas</p>
+						<a class="manif" href=""><b>¡Firma el Manifiesto!</b></a>
+					</div>
+					<div class="grid_4 centrado">
+						<h6>REUNIONES</h6>
+						<a href="http://floksociety.org/mumble/" target="_blank" class="link_texto">Mumble</a><br><br><br><br><br>
+						
+						<h6>ESCRITURA COLABORATIVA</h6>
+						<a href="http://floksociety.org/pad/" target="_blank" class="link_texto">EtherPad</a><br><br>
+						<a href="http://es.wiki.floksociety.org/w/Página_principal" target="_blank" class="link_texto">Wiki ES</a> /
+						<a href="http://en.wiki.floksociety.org/w/Main_Page" target="_blank" class="link_texto">Wiki EN</a><br>
+					</div>
+					<div class="grid_4 centrado">
+						<h6>BLOG</h6>
+						<a href="http://floksociety.org/" class="blog"><b>FLOKSociety.org</b></a><br><br><br>
+						<h6>SÍGUENOS EN:</h6>
+						<div style="width:220px; height:36px; margin:0 auto;">
+								<ul style="display:block; list-style:none; padding:5px 6% 0 0; margin:0;">
+									<li style="display:inline-block; height:100%; margin:0 20px 20px 20px;">
+										<a class="social" href="https://www.facebook.com/FLOKSociety" style="display:block; float:left; width:26px; height:26px; background-image:url('images/iconosRedesLanding.png'); background-position:-4px 0px; background-size:840%;"></a>
+									</li>
+									<li style="display:inline-block; height:100%; margin:0 20px 20px 20px;">
+										<a class="social" href="https://twitter.com/FLOKSociety" style="display:block; float:left; width:26px; height:26px; background-image:url('images/iconosRedesLanding.png'); background-position:-40px 0; background-size:840%;"></a>
+									</li>
+									<li style="display:inline-block; height:100%; margin:0 20px 20px 20px;">
+										<a class="social" href="https://plus.google.com/+FloksocietyOrg" style="display:block; float:left; width:26px; height:26px; background-image:url('images/iconosRedesLanding.png'); background-position:-78px 0; background-size:840%;"></a>
+									</li>
+									<br><li style="display:inline-block; height:100%; margin:0 20px 20px 20px;">
+										<a class="social" href="http://www.youtube.com/floksociety" style="display:block; float:left; width:26px; height:26px; background-image:url('images/iconosRedesLanding.png'); background-position:-115px 0; background-size:840%;"></a>
+									</li>
+									<li style="display:inline-block; height:100%; margin:0 20px 20px 20px;">
+										<a class="social" href="http://instagram.com/floksociety/" style="display:block; float:left; width:26px; height:26px; background-image:url('images/iconosRedesLanding.png'); background-position:-152px 0; background-size:840%;"></a>
+									</li>
+									<li style="display:inline-block; height:100%; margin:0 20px 20px 20px;">
+										<a class="social" href="http://www.flickr.com/photos/floksociety/" style="display:block; float:left; width:26px; height:26px; background-image:url('images/iconosRedesLanding.png'); background-position:-189px 0; background-size:840%;"></a>
+									</li></br>
+								</ul>
+							</div>
+						<br>
+						</br>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+
+<!--==============================footer=================================-->
+		<footer>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="infoFooter">
+						<div class="grid_4">
+							<p><b>EMAIL:</b></p>
+							<a href="mailto:comunicacion@floksociety.org" class="link-1">comunicacion@floksociety.org</a>
+						</div>
+						<div class="grid_4">
+							<p><b>DIRECCIÓN:</b></p>
+							<p>
+							Av. Rio Amazonas N37-271 y Villalengua<br>IAEN Building - Quito, Ecuador
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</footer>
+	</body>
+</html>
